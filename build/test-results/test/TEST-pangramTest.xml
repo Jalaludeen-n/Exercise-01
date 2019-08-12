@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pangramTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-08-12T16:17:34" hostname="in-Jalaludeenn.local" time="0.005">
+  <properties/>
+  <testcase name="perfectLowerCasePhraseIsPangram" classname="pangramTest" time="0.003"/>
+  <testcase name="phraseWithNumbersIsPangram" classname="pangramTest" time="0.0"/>
+  <testcase name="phraseWithUnderscoresIsPangram" classname="pangramTest" time="0.0"/>
+  <testcase name="phraseWithOnlyLowerCaseIsPangram" classname="pangramTest" time="0.0"/>
+  <testcase name="phraseMissingCharacterXIsNotPangram" classname="pangramTest" time="0.0"/>
+  <testcase name="phraseMissingCharacterHIsNotPangram" classname="pangramTest" time="0.0"/>
+  <testcase name="phraseWithMissingLettersReplacedByNumbersIsNotPangram" classname="pangramTest" time="0.001"/>
+  <testcase name="emptySentenceIsNotPangram" classname="pangramTest" time="0.0"/>
+  <testcase name="phraseWithMixedCaseAndPunctuationIsPangram" classname="pangramTest" time="0.0"/>
+  <testcase name="caseInsensitivePhraseIsNotPangram" classname="pangramTest" time="0.0"/>
+  <system-out><![CDATA[26
+26
+26
+26
+25
+25
+23
+26
+24
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
